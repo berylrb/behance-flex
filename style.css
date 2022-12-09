@@ -10,13 +10,14 @@ body {
 header {
   display: flex;
   flex-direction: row;
-  height:10vmin;
+  height: 10vmin;
   justify-content: space-between;
   border-bottom: 1px solid grey;
   margin: 0 0 10px 0;
 }
 
-.header-link-div, .log-in-div {
+.header-link-div,
+.log-in-div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -28,7 +29,7 @@ header {
 }
 
 .log-in-div {
-  width: 20vmin;
+  width: 30vmin;
 }
 
 
@@ -43,7 +44,9 @@ header {
   margin: 10px 0;
   border-bottom: 1px solid grey;
 }
-.search-input-links-div, .sort-params-div {
+
+.search-input-links-div,
+.sort-params-div {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -62,11 +65,15 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  margin: 20px 40px;
+  margin: 0 40px;
 }
 
 .sort-params-div {
   width: 60vmin;
+}
+
+.sort-params-div > select {
+  margin: 5px;
 }
 
 .sort-by-div {
@@ -74,7 +81,7 @@ header {
   flex-direction: column;
 }
 
-.sort-by-div > p {
+.sort-by-div>p {
   font-size: .8em;
   margin: 1px;
 }
@@ -102,21 +109,34 @@ header {
   margin: 20px;
 }
 
-.card-body > img {
+.card-body>img {
   height: 20vmin;
-}
-
-.desc-link-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  margin: 10px;
 }
 
 .card-desc-div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: stretch;
   width: 35vmin;
+  border-top: 1px solid grey;
+}
+
+.title-author-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-author-div>h4 {
+  margin: 8px;
+}
+
+.title-author-div>p {
+  font-size: .8em;
+  margin: 8px;
 }
 
 
@@ -127,15 +147,54 @@ header {
   justify-content: space-between;
 }
 
-.like-div, .view-div {
+.like-div,
+.view-div {
+  display: flex;
+  flex-direction: row;
+  width: 5vmin;
+  align-items: center;
+  padding: 4px;
+}
+
+.like-div>img {
+  height: 1vmin;
+}
+
+.view-div>img {
+  height: 1vmin;
+}
+
+.like-div>p {
+  font-size: .8em;
+}
+
+.view-div>p {
+  font-size: .8em;
+}
+
+/* footer  ------------------------*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-prefs-and-links-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 70vmin;
+}
+
+.footer-options-div, .main-footer-links-div {
   display: flex;
   flex-direction: row;
 }
 
-.like-div > img {
-  height: 1vmin;
+.footer-options-div > select {
+  padding: 10px;
+  margin: 10px;
+  height: 5vmin;
 }
 
-.view-div > img {
-  height: 1vmin;
-}
