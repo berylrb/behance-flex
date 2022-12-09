@@ -209,7 +209,7 @@ select {
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
-  width: 29vmin;
+  width: 100%;
 }
 
 .title-author-div {
@@ -236,7 +236,9 @@ select {
 .like-views-div {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin: 0;
 }
 
 .like-div,
@@ -250,18 +252,22 @@ select {
 
 .like-div>img {
   height: 1vmin;
+  margin: 2px;
 }
 
 .view-div>img {
   height: 1vmin;
+  margin: 2px;
 }
 
 .like-div>p {
-  font-size: .8em;
+  font-size: .7em;
+  font-weight: 500;
 }
 
 .view-div>p {
-  font-size: .8em;
+  font-size: .7em;
+  font-weight: 500;
 }
 
 /* footer  ------------------------*/
