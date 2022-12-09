@@ -1,0 +1,141 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+/* header ----------- */
+
+header {
+  display: flex;
+  flex-direction: row;
+  height:10vmin;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  margin: 0 0 10px 0;
+}
+
+.header-link-div, .log-in-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-link-div {
+  width: 35vmin;
+}
+
+.log-in-div {
+  width: 20vmin;
+}
+
+
+/* search section ------------------ */
+
+
+.search-and-sort-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 15vmin;
+  margin: 10px 0;
+  border-bottom: 1px solid grey;
+}
+.search-input-links-div, .sort-params-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.search-input-links-div {
+  border: 1px solid grey;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 20px 40px;
+}
+
+.params-and-sort-by-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 40px;
+}
+
+.sort-params-div {
+  width: 60vmin;
+}
+
+.sort-by-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.sort-by-div > p {
+  font-size: .8em;
+  margin: 1px;
+}
+
+
+/* card section  ------------------------------ */
+
+.card-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 35vmin;
+  width: 35vmin;
+  border: 1px solid rgba(128, 128, 128, 0.712);
+  margin: 20px;
+}
+
+.card-body > img {
+  height: 20vmin;
+}
+
+.desc-link-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-desc-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 35vmin;
+}
+
+
+
+.like-views-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.like-div, .view-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.like-div > img {
+  height: 1vmin;
+}
+
+.view-div > img {
+  height: 1vmin;
+}
