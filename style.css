@@ -103,15 +103,16 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 35vmin;
-  width: 35vmin;
+  height: 38vmin;
+  width: 40vmin;
   border: 1px solid rgba(128, 128, 128, 0.712);
-  margin: 20px;
+  margin: 10px;
 }
 
 .card-body>img {
-  height: 20vmin;
-  margin: 10px;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .card-desc-div {
@@ -120,7 +121,6 @@ header {
   justify-content: space-between;
   align-items: stretch;
   width: 35vmin;
-  border-top: 1px solid grey;
 }
 
 .title-author-div {
